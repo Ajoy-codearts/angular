@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="nav">
+        <ul class="navbar">
+            <li class="navitems">home</li>
+            <li class="navitems">gallery</li>
+            <li class="navitems">contact us</li>
+            <li class="navitems">about</li>
+        </ul>
+    </div>
+</div>
+<p>{{word}}</p>
+
+<input type="text" [(ngModel)]="text">
+<p>{{text}}</p>
+
+<button (click)="press()">click me</button>
+
+<p *ngIf="textValue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil expedita exercitationem, non voluptates quos! Eveniet, libero aut. Atque quis animi eaque, distinctio voluptatem ducimus excepturi explicabo ab suscipit officiis.</p>
+
+<button (click)="pressit()">click me</button>
+<p *ngIf="value; then productHide else productshow">about product</p>
+
+<ng-template #productHide>
+<p  style="width: 200px; height: 30px; background-color: red;">no product will added</p></ng-template>
+<ng-template #productshow ><p style="width: 200px; height: 30px; background-color: yellow;">product will add</p></ng-template>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>roll</th>
+            <th>address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let items of data; index as i">
+            <td>{{i+1}}</td>
+            <td>{{items.name}}</td>
+            <td>{{items.roll}}</td>
+            <td>{{items.address}}</td>
+        </tr>
+    </tbody>
+</table>

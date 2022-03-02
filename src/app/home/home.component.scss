@@ -1,0 +1,144 @@
+.custom-home{
+    .custom-banner{
+        .custom-banner-img{
+            position: relative;
+            .custom-banner-imgbox{
+                width: 100%;
+                position: absolute;
+                opacity: 0;
+                visibility: hidden;
+                 img{
+                    width: 100%;
+                    height: 571px;
+                    position: relative;
+                 }
+                .img-content{
+                    position: absolute;
+                    top: 150px;
+                    left: 14%;
+                    .content-text{
+                        position: relative;
+                        #text1 {
+                            font-size: 13px;
+                            color: #fff;
+                            font-family: poppins;
+                            font-weight: 500;
+                            margin-left: 44px;
+                            position: relative;
+                          }
+                          #text1::before {
+                            position: absolute;
+                            content: "";
+                            width: 38px;
+                            border: 1px solid #fff;
+                            top: 50%;
+                            left: -44px;
+                          }
+                          #text2 {
+                            font-size: 40px;
+                            color: #fff;
+                            margin: 34px 0;
+                            font-family: Martel;
+                            line-height: 50px;
+                            font-weight: 500;
+                          }
+                          #text3 {
+                            text-decoration: none;
+                            color: #fff;
+                            background-color: #1f3334;
+                            font-size: 13px;
+                            padding: 8px 13px 8px 13px;
+                            font-family: poppins;
+                            font-weight: 400;
+                            position: relative;
+                          }
+                          #text3::before {
+                            position: absolute;
+                            width: 25px;
+                            border-top: 2px solid #1f3334;
+                            top: -7px;
+                            left: 0px;
+                            content: "";
+                          }
+                          #text3::after {
+                            position: absolute;
+                            content: "";
+                            width: 25px;
+                            border-bottom: 2px solid #1f3334;
+                            bottom: -7px;
+                            right: 0;
+                          }
+                    }
+                    .content-text::before {
+                        position: absolute;
+                        content: "";
+                        top: -59px;
+                        border: 15px solid #fff;
+                        width: 329px;
+                        opacity: 0.3;
+                        height: 369px;
+                        left: -32px;
+                      }
+                }
+                
+            }
+            .custom-banner-imgbox.active{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        .index-content{
+            position: absolute;
+            top: 293px;
+            left: 62px;
+            ul{
+                list-style: none;
+                li{
+                    margin-bottom: 18px;
+                    #index1 {
+                        color: #a8d5d9;
+                        font-size: 12px;
+                        position: relative;
+                        cursor: pointer;
+                      }
+                      #index1::before {
+                        position: absolute;
+                        content: "";
+                        width: 87px;
+                        border: 1px solid #a8d5d9;
+                        top: 50%;
+                        right: 11px;
+                      }
+                      #index2 {
+                        color: #a8d5d9;
+                        font-size: 12px;
+                        position: relative;
+                        cursor: pointer;
+                      }
+                      #index2::before {
+                        position: absolute;
+                        content: "";
+                        width: 89px;
+                        border: 1px solid #a8d5d9;
+                        top: 50%;
+                        right: 11px;
+                      }
+                      #index3 {
+                        color: #a8d5d9;
+                        font-size: 12px;
+                        position: relative;
+                        cursor: pointer;
+                      }
+                      #index3::before {
+                        position: absolute;
+                        content: "";
+                        width: 89px;
+                        border: 1px solid #a8d5d9;
+                        top: 50%;
+                        right: 11px;
+                      }
+                }
+            }
+        }
+    }
+}

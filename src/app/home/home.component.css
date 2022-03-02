@@ -1,0 +1,161 @@
+.custom-home .custom-banner .custom-banner-img {
+  position: relative;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox img {
+  width: 100%;
+  height: 571px;
+  position: relative;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox .img-content {
+  position: absolute;
+  top: 150px;
+  left: 14%;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox .img-content .content-text {
+  position: relative;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox .img-content .content-text #text1 {
+  font-size: 13px;
+  color: #fff;
+  font-family: poppins;
+  font-weight: 500;
+  margin-left: 44px;
+  position: relative;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox .img-content .content-text #text1::before {
+  position: absolute;
+  content: "";
+  width: 38px;
+  border: 1px solid #fff;
+  top: 50%;
+  left: -44px;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox .img-content .content-text #text2 {
+  font-size: 40px;
+  color: #fff;
+  margin: 34px 0;
+  font-family: Martel;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox .img-content .content-text #text3 {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1f3334;
+  font-size: 13px;
+  padding: 8px 13px 8px 13px;
+  font-family: poppins;
+  font-weight: 400;
+  position: relative;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox .img-content .content-text #text3::before {
+  position: absolute;
+  width: 25px;
+  border-top: 2px solid #1f3334;
+  top: -7px;
+  left: 0px;
+  content: "";
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox .img-content .content-text #text3::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  border-bottom: 2px solid #1f3334;
+  bottom: -7px;
+  right: 0;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox .img-content .content-text::before {
+  position: absolute;
+  content: "";
+  top: -59px;
+  border: 15px solid #fff;
+  width: 329px;
+  opacity: 0.3;
+  height: 369px;
+  left: -32px;
+}
+
+.custom-home .custom-banner .custom-banner-img .custom-banner-imgbox.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.custom-home .custom-banner .index-content {
+  position: absolute;
+  top: 293px;
+  left: 62px;
+}
+
+.custom-home .custom-banner .index-content ul {
+  list-style: none;
+}
+
+.custom-home .custom-banner .index-content ul li {
+  margin-bottom: 18px;
+}
+
+.custom-home .custom-banner .index-content ul li #index1 {
+  color: #a8d5d9;
+  font-size: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-home .custom-banner .index-content ul li #index1::before {
+  position: absolute;
+  content: "";
+  width: 87px;
+  border: 1px solid #a8d5d9;
+  top: 50%;
+  right: 11px;
+}
+
+.custom-home .custom-banner .index-content ul li #index2 {
+  color: #a8d5d9;
+  font-size: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-home .custom-banner .index-content ul li #index2::before {
+  position: absolute;
+  content: "";
+  width: 89px;
+  border: 1px solid #a8d5d9;
+  top: 50%;
+  right: 11px;
+}
+
+.custom-home .custom-banner .index-content ul li #index3 {
+  color: #a8d5d9;
+  font-size: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-home .custom-banner .index-content ul li #index3::before {
+  position: absolute;
+  content: "";
+  width: 89px;
+  border: 1px solid #a8d5d9;
+  top: 50%;
+  right: 11px;
+}
+/*# sourceMappingURL=home.component.css.map */

@@ -1,0 +1,41 @@
+
+<div class="custom-header">
+    <div class="container">
+        <div class="header-wraper">
+            <div class="header-imgicon">
+                <img src="assets/image/Architecth.png" alt="">
+            </div>
+    
+    
+            <!-- this part is visible below tab view -->
+            <div class="hambar-icon">
+                <span (click)="showMenufnc()" ><i class="fa-solid fa-bars"></i></span>
+                <p *ngIf="Value; then showMenu"></p>
+            </div>
+            <!-- ends here -->
+    
+            <div class="headerMenu">
+                <ul class="headermenuItems" >
+                    <li *ngFor=" let item of menu" routerLink="{{item.menulink}}" class="headerMenuItem">{{item.menuname}}</li>
+                </ul>
+            </div>
+            <div class="headericonlinks">
+                <ul class="headericonlink">
+                    <li><span><i class="fa-brands fa-facebook-square"></i></span></li>
+                    <li><span><i class="fa-brands fa-twitter-square"></i></span></li>
+                    <li><span><i class="fa-brands fa-instagram-square"></i></span></li>
+                    <li><span><i class="fa-solid fa-square-envelope"></i></span></li>
+                </ul>
+            </div>
+        </div>
+    
+    
+        <ng-template #showMenu>
+            <div class="hambarMenu">
+                <ul class="headermenuItems" >
+                    <li *ngFor=" let item of menu" routerLink="{{item.menulink}}" class="headerMenuItem">{{item.menuname}}</li>
+                </ul>
+            </div>
+        </ng-template>
+    </div>
+</div>
